@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const DefaultLayout = () => {
-  return <h1>Hola Mundo!</h1>;
+export const DefaultLayout = (props) => {
+  return <>{props.children}</>;
 };
 
 export default DefaultLayout;
